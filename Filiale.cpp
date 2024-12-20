@@ -9,7 +9,7 @@ void Filiale::ajouterService(const Service& service) {
     services.push_back(service);
 }
 
-// Ajouter un employé à un service spécifique
+// Ajouter un employe à un service
 void Filiale::ajouterEmploye(const std::string& serviceNom, const Employe& employe) {
     for (Service& service : services) {
         if (service.getNom() == serviceNom) {
