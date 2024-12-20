@@ -9,7 +9,7 @@ private:
     std::string prenom;
     std::string matricule;
     std::string emploi;
-    int anneeArrivee; // Année d'arrivée
+    int anneeArrivee;
 
 public:
     Employe(std::string nom, std::string prenom, std::string matricule, std::string emploi, int anneeArrivee);
